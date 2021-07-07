@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "https://everfind.github.io/jsonformatter/static/css/main.0ea2ae70.chunk.css",
-    "main.js": "https://everfind.github.io/jsonformatter/static/js/main.674ebb5b.chunk.js",
-    "main.js.map": "https://everfind.github.io/jsonformatter/static/js/main.674ebb5b.chunk.js.map",
+    "main.css": "https://everfind.github.io/jsonformatter/static/css/main.6b1d7bb9.chunk.css",
+    "main.js": "https://everfind.github.io/jsonformatter/static/js/main.00e07f58.chunk.js",
+    "main.js.map": "https://everfind.github.io/jsonformatter/static/js/main.00e07f58.chunk.js.map",
     "runtime-main.js": "https://everfind.github.io/jsonformatter/static/js/runtime-main.dd39ab54.js",
     "runtime-main.js.map": "https://everfind.github.io/jsonformatter/static/js/runtime-main.dd39ab54.js.map",
-    "static/js/2.f818f04c.chunk.js": "https://everfind.github.io/jsonformatter/static/js/2.f818f04c.chunk.js",
-    "static/js/2.f818f04c.chunk.js.map": "https://everfind.github.io/jsonformatter/static/js/2.f818f04c.chunk.js.map",
+    "static/js/2.0a8d89df.chunk.js": "https://everfind.github.io/jsonformatter/static/js/2.0a8d89df.chunk.js",
+    "static/js/2.0a8d89df.chunk.js.map": "https://everfind.github.io/jsonformatter/static/js/2.0a8d89df.chunk.js.map",
     "static/js/3.e25535b2.chunk.js": "https://everfind.github.io/jsonformatter/static/js/3.e25535b2.chunk.js",
     "static/js/3.e25535b2.chunk.js.map": "https://everfind.github.io/jsonformatter/static/js/3.e25535b2.chunk.js.map",
     "index.html": "https://everfind.github.io/jsonformatter/index.html",
-    "static/css/main.0ea2ae70.chunk.css.map": "https://everfind.github.io/jsonformatter/static/css/main.0ea2ae70.chunk.css.map",
-    "static/js/2.f818f04c.chunk.js.LICENSE.txt": "https://everfind.github.io/jsonformatter/static/js/2.f818f04c.chunk.js.LICENSE.txt"
+    "static/css/main.6b1d7bb9.chunk.css.map": "https://everfind.github.io/jsonformatter/static/css/main.6b1d7bb9.chunk.css.map",
+    "static/js/2.0a8d89df.chunk.js.LICENSE.txt": "https://everfind.github.io/jsonformatter/static/js/2.0a8d89df.chunk.js.LICENSE.txt",
+    "static/media/index.module.scss": "https://everfind.github.io/jsonformatter/static/media/swoosh-right.89d54753.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dd39ab54.js",
-    "static/js/2.f818f04c.chunk.js",
-    "static/css/main.0ea2ae70.chunk.css",
-    "static/js/main.674ebb5b.chunk.js"
+    "static/js/2.0a8d89df.chunk.js",
+    "static/css/main.6b1d7bb9.chunk.css",
+    "static/js/main.00e07f58.chunk.js"
   ]
 }
