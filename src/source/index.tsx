@@ -34,6 +34,7 @@ const Source: React.FC<SourceProps> = ({ onChange, onError, className }) => {
           setJsonStr(e.target.value);
         }}
         onBlur={onJsonChange}
+        placeholder='请在此处输入 JSON 文本，移除鼠标焦点进行格式化。'
       />
     </div>
   );

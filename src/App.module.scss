@@ -7,8 +7,12 @@
 
   .source {
     flex: 1;
+    flex-shrink: 0;
+    overflow: auto;
   }
   .board {
     flex: 2;
+    flex-shrink: 0;
+    overflow: auto;
   }
 }
