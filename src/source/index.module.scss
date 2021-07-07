@@ -1,0 +1,21 @@
+.source {
+  border-right: 1px solid #3eaf7c;
+  .toolbar {
+    height: 40px;
+    border-bottom: 1px solid #3eaf7c;
+    z-index: 100;
+    text-align: center;
+    line-height: 40px;
+    color: #3eaf7c;
+  }
+  textarea {
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 40px);
+    border: none;
+    outline: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}

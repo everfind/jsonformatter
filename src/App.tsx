@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import JSONFormatter from 'json-formatter-js';
+import React, { useCallback, useState } from 'react';
+import cls from './App.module.scss';
+import Board from './board';
+import Source from './source';
 
 function App() {
+  const [info, setInfo] = useState<Error | HTMLElement>();
+  const onJsonChange = useCallback((json) => {
+    const formatter = new JSONFormatter(json, 1, {
+      hoverPreviewEnabled: true,
+    });
+    setInfo(formatter.render());
+  }, []);
+  const onJsonError = useCallback((error: Error) => {
+    setInfo(error);
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={cls.app}>
+      <Source className={cls.source} onChange={onJsonChange} onError={onJsonError} />
+      <Board className={cls.board} info={info} />
     </div>
   );
 }

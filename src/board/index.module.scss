@@ -1,0 +1,18 @@
+.board {
+  .toolbar {
+    height: 40px;
+    border-bottom: 1px solid #3eaf7c;
+    z-index: 100;
+    text-align: center;
+    line-height: 40px;
+    color: #3eaf7c;
+  }
+
+  .json {
+    padding: 20px;
+    display: block;
+  }
+  .error {
+    color: red;
+  }
+}
