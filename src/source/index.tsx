@@ -10,33 +10,36 @@ export interface SourceProps {
 
 const Source: React.FC<SourceProps> = ({ onChange, onError, className }) => {
   const [jsonStr, setJsonStr] = useState('');
-  const onJsonChange = useCallback(
-    (e: React.FocusEvent<HTMLTextAreaElement>) => {
-      if (!e.target.value) {
-        return;
-      }
-      try {
-        const json = jju.parse(e.target.value);
-        setJsonStr(jju.stringify(json, { indent: 2, mode: 'json' }));
-        onChange(json);
-      } catch (e) {
-        onError(e);
-      }
-    },
-    [onChange, onError],
-  );
+  const onJsonChange = useCallback(() => {
+    if (!jsonStr) {
+      return;
+    }
+    try {
+      const json = jju.parse(jsonStr);
+      setJsonStr(jju.stringify(json, { indent: 2, mode: 'json' }));
+      onChange(json);
+    } catch (e) {
+      onError(e);
+    }
+  }, [onChange, onError, jsonStr]);
   return (
-    <div className={`${className} ${cls.source}`}>
-      <div className={cls.toolbar}>JSON 文本</div>
-      <textarea
-        value={jsonStr}
-        onChange={(e) => {
-          setJsonStr(e.target.value);
-        }}
-        onBlur={onJsonChange}
-        placeholder='请在此处输入 JSON 文本，移除鼠标焦点进行格式化。'
-      />
-    </div>
+    <>
+      <div className={`${className} ${cls.source}`}>
+        <div className={cls.toolbar}>JSON 文本</div>
+        <textarea
+          value={jsonStr}
+          onChange={(e) => {
+            setJsonStr(e.target.value);
+          }}
+          placeholder='请在此处输入 JSON 文本，移除鼠标焦点进行格式化。'
+        />
+      </div>
+      <div className={cls.arrowWrapper}>
+        <div className={cls.arrow}>
+          <div onClick={onJsonChange} />
+        </div>
+      </div>
+    </>
   );
 };
 
