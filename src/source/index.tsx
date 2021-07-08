@@ -31,7 +31,7 @@ const Source: React.FC<SourceProps> = ({ onChange, onError, className }) => {
           onChange={(e) => {
             setJsonStr(e.target.value);
           }}
-          placeholder='请在此处输入 JSON 文本，移除鼠标焦点进行格式化。'
+          placeholder='请在此处输入 JSON 文本'
         />
       </div>
       <div className={cls.arrowWrapper}>
