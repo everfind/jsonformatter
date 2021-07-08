@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://everfind.github.io/jsonformatter/static/css/main.6b1d7bb9.chunk.css",
-    "main.js": "https://everfind.github.io/jsonformatter/static/js/main.00e07f58.chunk.js",
-    "main.js.map": "https://everfind.github.io/jsonformatter/static/js/main.00e07f58.chunk.js.map",
+    "main.js": "https://everfind.github.io/jsonformatter/static/js/main.2d026ed1.chunk.js",
+    "main.js.map": "https://everfind.github.io/jsonformatter/static/js/main.2d026ed1.chunk.js.map",
     "runtime-main.js": "https://everfind.github.io/jsonformatter/static/js/runtime-main.dd39ab54.js",
     "runtime-main.js.map": "https://everfind.github.io/jsonformatter/static/js/runtime-main.dd39ab54.js.map",
     "static/js/2.0a8d89df.chunk.js": "https://everfind.github.io/jsonformatter/static/js/2.0a8d89df.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.dd39ab54.js",
     "static/js/2.0a8d89df.chunk.js",
     "static/css/main.6b1d7bb9.chunk.css",
-    "static/js/main.00e07f58.chunk.js"
+    "static/js/main.2d026ed1.chunk.js"
   ]
 }
