@@ -1,18 +1,15 @@
 .app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: center;
+  height: 100%;
+  overflow: hidden;
 
   .source {
-    flex: 1;
-    flex-shrink: 0;
-    overflow: auto;
+    width: 40%;
+    display: inline-block;
+    height: 100%;
   }
   .board {
-    flex: 2;
-    flex-shrink: 0;
-    overflow: auto;
+    width: 60%;
+    display: inline-block;
+    height: 100%;
   }
 }

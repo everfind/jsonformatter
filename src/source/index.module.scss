@@ -1,18 +1,24 @@
 .source {
-  // border-right: 1px solid #3eaf7c;
+  position: relative;
   .toolbar {
     height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
     border-bottom: 1px solid #3eaf7c;
     z-index: 100;
     text-align: center;
-    line-height: 40px;
     color: #3eaf7c;
+    background: #ffffff;
   }
   textarea {
+    z-index: 0;
     resize: none;
-    padding: 10px;
+    padding: 50px 10px 10px;
     width: 100%;
-    height: calc(100% - 40px);
+    height: 100%;
     border: none;
     outline: none;
     &:focus {
@@ -21,9 +27,11 @@
   }
 }
 .arrowWrapper {
-  min-height: 100vh;
+  height: 100%;
   width: 1px;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 0;
   background: #3eaf7c;
   .arrow {
     position: absolute;

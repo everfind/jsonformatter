@@ -1,18 +1,27 @@
 .board {
+  position: relative;
   .toolbar {
     height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
     border-bottom: 1px solid #3eaf7c;
     z-index: 100;
     text-align: center;
-    line-height: 40px;
     color: #3eaf7c;
+    background: #ffffff;
   }
-
   .json {
-    padding: 20px;
+    padding: 60px 20px 20px;
     display: block;
+    height: 100%;
+    overflow: auto;
+    z-index: 0;
   }
   .error {
     color: red;
+    word-break: break-all;
   }
 }
