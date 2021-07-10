@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "https://everfind.github.io/jsonformatter/static/css/main.6b1d7bb9.chunk.css",
-    "main.js": "https://everfind.github.io/jsonformatter/static/js/main.2d026ed1.chunk.js",
-    "main.js.map": "https://everfind.github.io/jsonformatter/static/js/main.2d026ed1.chunk.js.map",
-    "runtime-main.js": "https://everfind.github.io/jsonformatter/static/js/runtime-main.dd39ab54.js",
-    "runtime-main.js.map": "https://everfind.github.io/jsonformatter/static/js/runtime-main.dd39ab54.js.map",
-    "static/js/2.0a8d89df.chunk.js": "https://everfind.github.io/jsonformatter/static/js/2.0a8d89df.chunk.js",
-    "static/js/2.0a8d89df.chunk.js.map": "https://everfind.github.io/jsonformatter/static/js/2.0a8d89df.chunk.js.map",
-    "static/js/3.e25535b2.chunk.js": "https://everfind.github.io/jsonformatter/static/js/3.e25535b2.chunk.js",
-    "static/js/3.e25535b2.chunk.js.map": "https://everfind.github.io/jsonformatter/static/js/3.e25535b2.chunk.js.map",
-    "index.html": "https://everfind.github.io/jsonformatter/index.html",
-    "static/css/main.6b1d7bb9.chunk.css.map": "https://everfind.github.io/jsonformatter/static/css/main.6b1d7bb9.chunk.css.map",
-    "static/js/2.0a8d89df.chunk.js.LICENSE.txt": "https://everfind.github.io/jsonformatter/static/js/2.0a8d89df.chunk.js.LICENSE.txt",
-    "static/media/index.module.scss": "https://everfind.github.io/jsonformatter/static/media/swoosh-right.89d54753.svg"
+    "main.css": "/jsonformatter/static/css/main.8e5e269a.chunk.css",
+    "main.js": "/jsonformatter/static/js/main.8a4d5d81.chunk.js",
+    "main.js.map": "/jsonformatter/static/js/main.8a4d5d81.chunk.js.map",
+    "runtime-main.js": "/jsonformatter/static/js/runtime-main.f9b5c41b.js",
+    "runtime-main.js.map": "/jsonformatter/static/js/runtime-main.f9b5c41b.js.map",
+    "static/js/2.17f7ebad.chunk.js": "/jsonformatter/static/js/2.17f7ebad.chunk.js",
+    "static/js/2.17f7ebad.chunk.js.map": "/jsonformatter/static/js/2.17f7ebad.chunk.js.map",
+    "static/js/3.e25535b2.chunk.js": "/jsonformatter/static/js/3.e25535b2.chunk.js",
+    "static/js/3.e25535b2.chunk.js.map": "/jsonformatter/static/js/3.e25535b2.chunk.js.map",
+    "index.html": "/jsonformatter/index.html",
+    "static/css/main.8e5e269a.chunk.css.map": "/jsonformatter/static/css/main.8e5e269a.chunk.css.map",
+    "static/js/2.17f7ebad.chunk.js.LICENSE.txt": "/jsonformatter/static/js/2.17f7ebad.chunk.js.LICENSE.txt",
+    "static/media/index.module.scss": "/jsonformatter/static/media/swoosh-right.89d54753.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd39ab54.js",
-    "static/js/2.0a8d89df.chunk.js",
-    "static/css/main.6b1d7bb9.chunk.css",
-    "static/js/main.2d026ed1.chunk.js"
+    "static/js/runtime-main.f9b5c41b.js",
+    "static/js/2.17f7ebad.chunk.js",
+    "static/css/main.8e5e269a.chunk.css",
+    "static/js/main.8a4d5d81.chunk.js"
   ]
 }
