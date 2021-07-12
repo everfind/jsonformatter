@@ -1,5 +1,6 @@
 .source {
   position: relative;
+  z-index: 100;
   .toolbar {
     height: 40px;
     width: 100%;
@@ -7,10 +8,10 @@
     top: 0;
     left: 0;
     line-height: 40px;
-    border-bottom: 1px solid #3eaf7c;
+    border-bottom: 1px solid #5397d2;
     z-index: 100;
     text-align: center;
-    color: #3eaf7c;
+    color: #5397d2;
     background: #ffffff;
   }
   textarea {
@@ -32,7 +33,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  background: #3eaf7c;
+  background: #5397d2;
   .arrow {
     position: absolute;
     right: -30px;
@@ -40,7 +41,7 @@
     margin-top: -30px;
     height: 60px;
     width: 60px;
-    border: 1px solid #3eaf7c;
+    border: 1px solid #5397d2;
     border-radius: 30px;
     background: #ffffff;
     > div {
