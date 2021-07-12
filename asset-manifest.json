@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jsonformatter/static/css/main.8e5e269a.chunk.css",
-    "main.js": "/jsonformatter/static/js/main.8a4d5d81.chunk.js",
-    "main.js.map": "/jsonformatter/static/js/main.8a4d5d81.chunk.js.map",
+    "main.css": "/jsonformatter/static/css/main.34162c9e.chunk.css",
+    "main.js": "/jsonformatter/static/js/main.f7e9dac0.chunk.js",
+    "main.js.map": "/jsonformatter/static/js/main.f7e9dac0.chunk.js.map",
     "runtime-main.js": "/jsonformatter/static/js/runtime-main.f9b5c41b.js",
     "runtime-main.js.map": "/jsonformatter/static/js/runtime-main.f9b5c41b.js.map",
     "static/js/2.17f7ebad.chunk.js": "/jsonformatter/static/js/2.17f7ebad.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.e25535b2.chunk.js": "/jsonformatter/static/js/3.e25535b2.chunk.js",
     "static/js/3.e25535b2.chunk.js.map": "/jsonformatter/static/js/3.e25535b2.chunk.js.map",
     "index.html": "/jsonformatter/index.html",
-    "static/css/main.8e5e269a.chunk.css.map": "/jsonformatter/static/css/main.8e5e269a.chunk.css.map",
+    "static/css/main.34162c9e.chunk.css.map": "/jsonformatter/static/css/main.34162c9e.chunk.css.map",
     "static/js/2.17f7ebad.chunk.js.LICENSE.txt": "/jsonformatter/static/js/2.17f7ebad.chunk.js.LICENSE.txt",
-    "static/media/index.module.scss": "/jsonformatter/static/media/swoosh-right.89d54753.svg"
+    "static/media/index.module.scss": "/jsonformatter/static/media/swoosh-right.98155de5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f9b5c41b.js",
     "static/js/2.17f7ebad.chunk.js",
-    "static/css/main.8e5e269a.chunk.css",
-    "static/js/main.8a4d5d81.chunk.js"
+    "static/css/main.34162c9e.chunk.css",
+    "static/js/main.f7e9dac0.chunk.js"
   ]
 }
